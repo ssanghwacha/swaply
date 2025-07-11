@@ -22,7 +22,7 @@ export default StyleSheet.create({
     color: '#888',
   },
 
- //Exchange list part
+  // Header
   headerTitleContainer: {
     alignItems: 'center',
     backgroundColor: '#fff',
@@ -40,7 +40,8 @@ export default StyleSheet.create({
     fontSize: 14,
     color: '#666',
   },
-  
+
+  // List
   listContainer: {
     paddingHorizontal: 16,
     paddingTop: 8,
@@ -69,10 +70,14 @@ export default StyleSheet.create({
     fontWeight: '600',
     color: '#333',
   },
-  cardRight: {
-    justifyContent: 'center',
-    alignItems: 'flex-end',
-  },
+ cardRightRow: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  gap: 12,
+},
+cardRightContent: {
+  alignItems: 'flex-end',
+},
   valueText: {
     fontSize: 18,
     fontWeight: '600',
@@ -83,6 +88,11 @@ export default StyleSheet.create({
     fontSize: 12,
     color: '#888',
   },
+  bookmarkIcon: {
+    marginTop: 8,
+  },
+
+  // Footer
   footer: {
     alignItems: 'center',
     paddingVertical: 12,
